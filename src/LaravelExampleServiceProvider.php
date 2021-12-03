@@ -2,9 +2,9 @@
 
 namespace Skies\LaravelExample;
 
+use Skies\LaravelExample\Commands\LaravelExampleCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Skies\LaravelExample\Commands\LaravelExampleCommand;
 
 class LaravelExampleServiceProvider extends PackageServiceProvider
 {
